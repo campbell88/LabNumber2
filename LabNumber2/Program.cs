@@ -27,35 +27,18 @@ namespace LabNumber2
                     continue;
                 }
 
-
-
-                if (input % 2 == 0)
-                {
-                    Console.WriteLine("even");
-
-                }
-
-                else
+                if (input % 2 != 0)
                 {
                     Console.WriteLine("odd");
-
-
-
                 }
+
 
                 if (input > 2 && input < 25 && input % 2 == 0) //if input is more than 2 and less than 25 and has no remainder aka is an even number
                 {
                     Console.WriteLine("Even and Less than 25");
-
-
-
                 }
-
                 Console.ReadKey();
             }
-
-
-
             }
         }
     }
