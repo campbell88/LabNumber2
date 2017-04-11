@@ -29,6 +29,13 @@ namespace LabNumber2
 
             }
 
+            if (input > 2 && input < 25 && input % 2 == 0)
+            {
+                Console.WriteLine("Even and Less than 25");
+
+
+
+            }
 
 
 
